@@ -1,5 +1,5 @@
 {% set name = "hupper" %}
-{% set version = "1.10.2" %}
+{% set version = "1.10.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3818f53dabc24da66f65cf4878c1c7a9b5df0c46b813e014abdd7c569eb9a02a
+  sha256: cd6f51b72c7587bc9bce8a65ecd025a1e95f1b03284519bfe91284d010316cd9
 
 build:
   noarch: python
